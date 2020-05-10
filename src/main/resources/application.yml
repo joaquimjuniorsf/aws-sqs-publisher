@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+cloud:
+  aws:
+    region:
+      static: sa-east-1
+      auto: true
+    Sqs:
+      url: https://sqs.sa-east-1.amazonaws.com/761229749334/sqs-queue-joaquim
+    credentials:
+      accessKey: *****
+      secretKey: ***** 
